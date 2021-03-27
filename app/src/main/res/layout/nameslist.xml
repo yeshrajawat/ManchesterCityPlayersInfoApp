@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="96dp"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    card_view:cardBackgroundColor="#FFFF"
+    card_view:cardCornerRadius="20dp"
+    android:id="@+id/cv"
+    card_view:contentPadding="10dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playerview"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playernametv"
+        android:layout_margin="5dp"
+        tools:text="Sergio Aguero"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#194174"
+        android:padding="8dp"/>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
