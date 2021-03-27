@@ -38,6 +38,10 @@ class ManchesterCityWOMENS : Fragment() {
         playerrv.adapter = adapter
 
 
+
+
+
+
     }
 
 

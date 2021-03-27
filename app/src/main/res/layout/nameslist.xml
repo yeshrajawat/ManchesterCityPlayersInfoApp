@@ -6,7 +6,7 @@
     android:layout_marginRight="16dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    card_view:cardBackgroundColor="#FFFF"
+    card_view:cardBackgroundColor="#9BC7E9"
     card_view:cardCornerRadius="20dp"
     android:id="@+id/cv"
     card_view:contentPadding="10dp"
@@ -18,6 +18,7 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/playerview"
+
     android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
